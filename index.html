@@ -5,7 +5,6 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link
 			rel="icon"
@@ -15,15 +14,33 @@
 
 		<link
 			rel="stylesheet"
-			href="styles.css" />
+			href="./Style/styles.css" />
 
 		<title>Frontend Mentor | Order summary card</title>
 	</head>
 	<body>
-		Order Summary You can now listen to millions of songs, audiobooks, and
-		podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-		Proceed to Payment Cancel Order
-
+		<main class="hero_order">
+			<img src="./images/pattern-background-desktop.svg" />
+			<img
+				src="./images/illustration-hero.svg"
+				alt="image" />
+			<h1 class="Order">Order Summary</h1>
+			<p class="Music">
+				You can now listen to millions of songs, audiobooks, and podcasts on any
+				device anywhere you like!
+			</p>
+			<div class="Plan">
+				<img
+					src="./images/icon-music.svg"
+					alt="Music Note" />
+				Annual Plan
+			</div>
+			<div class="planPrice">
+				$59.99/year <span class="change">Change</span>
+			</div>
+			<button class="payment">Proceed to Payment</button>
+			<button class="cancelOrder">Cancel Order</button>
+		</main>
 		<div class="attribution">
 			Challenge by
 			<a
