@@ -7,15 +7,34 @@ body {
 
 .payment {
 	/* top | right | bottom | left */
-	padding: 1em 2em 1.2em 2em;
+	padding: 1em 4em 1.2em 4em;
 	background-color: hsl(223, 47%, 23%);
 	color: #fff;
 	border-radius: 1.2em;
 	border: none;
+	cursor: pointer;
 }
+
+/* .payment:hover {
+	background-color: #fff;
+	color: #000;
+} */
 
 .planPrice {
 	color: hsl(225, 100%, 98%);
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.planAnnual {
+	font-weight: bolder;
+}
+
+.cancelOrder {
+	padding-left: 2em;
+	border: none;
+	color: hsl(245, 75%, 52%);
+	cursor: pointer;
 }
 
 .change {
