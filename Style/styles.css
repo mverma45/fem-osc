@@ -3,13 +3,14 @@
 body {
 	font-size: 1em;
 	background-image: url('"http://www.w3.org/2000/svg" width="1440" height="437"><path fill="#D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>');
-	width: 32.12em;
+	width: 35.12em;
 	margin-left: 10em;
 	border-radius: #fff;
 	background-color: rgb(214, 208, 208);
 }
 
-img {
+.img1 img {
+	width: 100%;
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 }
@@ -25,7 +26,7 @@ img {
 }
 
 .hero_order {
-	margin-left: 4em;
+	margin-left: 1em;
 	background-color: #fff;
 	border-radius: 2em;
 }
@@ -36,12 +37,13 @@ img {
 
 .Plan {
 	/* top | right | bottom | left */
-	padding: 1em 4em 1.2em 4em;
+	padding: 1em 3em 1.2em 4em;
 }
 
 .Music {
-	padding-left: 3.8em;
-	font-size: 1.1em;
+	padding-left: 2em;
+	font-size: 1.75em;
+	color: hsl(224, 23%, 55%);
 }
 
 .planPrice {
@@ -62,7 +64,7 @@ img {
 }
 
 .payment {
-	width: 25em;
+	width: 33em;
 	height: 3em;
 	margin: 2em 4em;
 	vertical-align: middle;
@@ -71,10 +73,11 @@ img {
 
 .cancelOrder {
 	border: none;
-	color: hsl(245, 75%, 52%);
+	color: hsl(223, 47%, 23%);
 	cursor: pointer;
 	text-align: center;
 	padding-bottom: 3em;
+	font-weight: 800;
 }
 
 .change {
