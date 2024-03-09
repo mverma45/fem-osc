@@ -67,15 +67,14 @@ img {
 	margin: 2em 4em;
 	vertical-align: middle;
 	font-weight: 800;
-	/* font-size: 0.75em; */
 }
 
 .cancelOrder {
-	padding-left: 3em;
 	border: none;
 	color: hsl(245, 75%, 52%);
 	cursor: pointer;
 	text-align: center;
+	padding-bottom: 3em;
 }
 
 .change {
