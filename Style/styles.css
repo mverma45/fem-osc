@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@500;700;900;&display=swap');
 
 * {
+	box-sizing: border-box;
 	margin: 0;
-	font-size: 1em;
-	background-image: url('');
+	padding: 0;
+	min-width: 0;
+	/* font-size: 1em;
+	background-image: url(''); */
 }
 
 /* body {
@@ -15,9 +18,11 @@
 } */
 
 .hero_order {
-	margin: auto;
 	margin-top: 2em;
 	width: 50%;
+	margin-left: 0.25em;
+	background-color: #fff;
+	border-radius: 2em;
 }
 
 .img1 img {
@@ -33,12 +38,6 @@
 	cursor: pointer;
 }
 
-.hero_order {
-	margin-left: 0.25em;
-	background-color: #fff;
-	border-radius: 2em;
-}
-
 .Order {
 	padding-left: 3em;
 	font-size: 2em;
@@ -50,9 +49,9 @@
 }
 
 .Music {
-	padding-left: 2em;
-	font-size: 1em;
+	padding: 2em;
 	color: hsl(224, 23%, 55%);
+	/* width: 70%; */
 }
 
 .planPrice {
